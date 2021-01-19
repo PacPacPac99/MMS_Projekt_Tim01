@@ -1,0 +1,174 @@
+div.slikaPocetakRez {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-image: url("Slike/vocepovrcenadrvu-1.jpg");  
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+div.slikaPocetakRez h1 {
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+	background: whitesmoke;
+	opacity: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+/*----------REZERVACIJA STOLA------------------*/
+/*---VLASTITA IZRADA------*/
+.rezervacijastola {
+    width: 100%;
+    height: auto;
+    background-image: url("Slike/REZERVACIJA-STOLA-CUT.jpg");
+    align-items: center;
+    padding-bottom: 29px;
+}
+.rezervacijastola h2{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.rezervacijastola table{
+    margin: auto;
+    align-items: center;
+    background-color: rgb(255,255,255,0.6);
+    padding-bottom: 20px;
+}
+
+.form-inline {  
+    align-items: center;
+  }
+
+  .form-inline td {
+      width: auto;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .form-inline td .prazno {
+      width: 2px
+  }
+  
+  .form-inline td label {
+    font-family: 'Merienda';
+    margin: 5px 10px 5px 0;
+  }
+  
+  .form-inline td input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .form-inline td button {
+    padding: 10px 20px;
+    font-family: 'Merienda';
+    background-color: #00e600;
+    transition: ease;
+    transition-duration: 0.5s;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    align-content: center;
+  }
+  
+  .form-inline button:hover {
+    background-color: white;
+    transition: ease;
+    transition-duration: 0.5s;
+  }
+  
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+
+/*------- REZERVACIJA RADIONICE.-------------*/
+
+.rezervacijaradionice {
+    width: 100%;
+    height: 400px;
+    background-image: url("Slike/REZERVACIJA-RADIONICA-CUT.jpg");
+    align-items: center;
+    padding-bottom: 40px;
+}
+.rezervacijaradionice h2{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.rezervacijaradionice table{
+    margin: auto;
+    align-items: center;
+    background-color: rgb(255,255,255,0.6);
+}
+
+.form-inline {  
+    align-items: center;
+  }
+
+  .form-inline td {
+      width: auto;
+      padding-left: 4px;
+      padding-right: 4px;
+  }
+  .form-inline td .prazno {
+      width: 2px
+  }
+  
+  .form-inline td label {
+    font-family: 'Merienda';
+    margin: 5px 10px 5px 0;
+  }
+  
+  .form-inline td input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .form-inline td button {
+    padding: 10px 20px;
+    font-family: 'Merienda';
+    background-color: #00e600;
+    transition: ease;
+    transition-duration: 0.5s;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    align-content: center;
+  }
+  
+  .form-inline button:hover {
+    background-color: white;
+    transition: ease;
+    transition-duration: 0.5s;
+  }
+  
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
