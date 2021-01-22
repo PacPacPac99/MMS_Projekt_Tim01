@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Abecevitaz</title>
+        <meta name="description" content="Vege restoran Varaždin">
+        <meta name="keywords" content="vege, raw, gluten-free, bezglutensko, Patrik, Zvonimir, Varaždin, Restoran, Abecevitaz">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="application-name" content="Abecevitaz web stranica">
+        <meta name="author" content="Zvonimir Koprek, Patrik Horvatić">
+        <link rel="stylesheet" href="stil.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Noto Sans" rel='stylesheet'>
+    </head>
+    <body>
+
+<!-- -----------------LOGO NA VRHU STRANICE ---------------------->
+        <div class="logovrh">
+            <img src="logo.png" alt="logo restorana" width="400" height="200">
+        </div>
+
+<!-- -----------------IZBORNIK------------------------------------>
+<!-- Dio samostalna izrada, dio prezet s
+https://www.w3schools.com/howto/howto_css_dropdown.asp
+Naša izmjena je centriranje izbornika
+CSS također preuzet, uz vlastite izmjene boja i fontova
+
+Ovaj izbornik je ispravak nakon obrane projekta.
+-->
+<div class="navbar">
+  <a href="index.html">Početna</a>
+  <a href="rezervacije.html">Rezervacije</a>
+  <a href="pica.html">Pića</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Jelovnik 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="originalna_jela.html">Originalna jela</a>
+      <a href="jelovnik.html">Prikaz jelovnika</a>
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Galerija 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="galerija_ambijent.html">Ambijent</a>
+      <a href="galerija.html">Jela</a>
+    </div>
+  </div>
+  <a href="onama.html">O nama</a>
+
+<!--  OVO JE STARI DIO IZBORNIKA
+  <div class="dropdown">
+    <button class="dropbtn">O nama 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="onama.html">Povijest restorana</a>
+      <a href="onama.html">Lokacija</a>
+      <a href="onama.html">Kontakt</a>
+    </div>
+  </div>
+   -->
+</div>
+
+
+
+<!-- --------------------VELIKA SLIKA------------------------ -->
+<!-- SAMOSTALNA IZRADA-->
+          <div class="slikaPocetak">
+            <h1>Abecevitaz</h1>
+          </div>
+
+<!-- -------------------POSEBNA PONUDA------------------------->
+<!-- SAMOSTALNA IZRADA-->
+          <div class="posebnaponuda">
+            <h2>Posebna ponuda</h2>
+            <table>
+              <tr>
+                <td>
+                  <h2>Miješana salata</h2>
+                  <p>
+                    Miješana salata sadrži zelenu salatu, rajčicu,
+                    krastavce, grah i dozu papričice. Savršen miks za
+                    ljetno osvježenje.
+                  </p>
+                </td>
+                <td>
+                  <img src="Slike/FOOD1.jpg" alt="Slika 1">
+                </td>
+                <td>
+                  <img src="Slike/FOOD2.jpg" alt="Slika 1">
+                </td>
+                <td>
+                  <h2>A la fin </h2>
+                  <p>
+                    A la fin jelo je našeg kuhara Patrika.
+                    Sadrži rajčicu, rižu, zelenu salatu.
+                  </p>
+                </td>
+              </tr>
+
+            </table>
+
+
+          </div>
+
+<!-- ------------------STAVKE NA STRANICI ------------------------>
+<!-- SAMOSTALNA IZRADA-->
+          <div class="sadrzaj">
+            <div>
+            <table>
+              <!-- slika lijevo-->
+              <tr rowspan=2>
+                <td><img src="Slike/slikaSvjezeOPG.jpg" alt="Svjeze"></td>
+                <td><h2>Namirnice</h2><p>Naš restoran koristi
+                  samo svježe namirnice lokalnih OPG-ova 
+                  i malih proizvođača
+                </p></td>
+              </tr>
+
+              <!-- slika desno-->
+              <tr rowspan=2>
+                <td><h2>Radionica kuhanja</h2>
+                  <p>Radionica kuhanja održava se u restoranu gdje Vas
+                    naši vrsni kuhari uče o zdravoj prehrani i receptima
+                    koji će obnoviti Vaše tijelo</p>
+                </td>
+                <td><img src="Slike/radionica.jpg" alt="radionica"></td>
+              </tr>
+              
+              
+              <!-- slika lijevo-->
+              <tr rowspan=2>
+                <td><img src="Slike/chef1-rez.jpg" alt="chef 1"></td>
+                <td>
+                  <h2>Chef Patrik Horvatić</h2>
+                  <p>Kuhar Parik prepoznatljiv je u svijetu kulinarstva po svojem
+                  bogatom znanju o namirnicama i njihovim nutritivnim vrijednostima.
+                  Bake su ljubomorne na njegove svježe vege juhe!
+                </p></td>
+              </tr>
+
+              <!-- slika desno-->
+              <tr rowspan=2>
+                <td><h2>Chef Zvonimir Koprek</h2>
+                  <p>Kuhar Zvonimir proveo je većinu svoje karijere
+                    u Aziji gdje je istraživao začine i bilje prepoznatljive
+                    u azijskoj kuhinji. Svoje dobiveno znanje predstavlja
+                    Vam na tanjuru jedinstvenog dizajna.
+                  </p>
+                </td>
+                <td><img src="Slike/chef2.jpg" alt="Chef 2"></td>
+              </tr>
+            </table>
+          </div>
+          </div>
+
+<!-- ------------------ISPOVIJEST ------------------------------->
+<!-- SAMOSTALNA IZRADA-->
+          <div class="ispovijest">
+            <h2>Ispovijest</h2>
+            <p>“Jela koja su Patrik i Zvonimir pripremili bila su izvrsna. Ambijent je odličan, atmosfera ugodna.”</p>
+          </div>
+
+<!-- ------------------REZERVACIJA STOLA ------------------------------->
+<!-- 
+Klase form-inline preuzete s 
+https://www.w3schools.com/howto/howto_css_inline_form.asp.
+
+-->
+          <div class="rezervacija">
+            <h2>Rezervacija stola</h2>
+            <form>
+            <table class="form-inline">
+              <tr>
+                <td><label>Ime</label></td>
+                <td></td>
+                <td><label>Prezime</label></td>
+              </tr>
+              <tr> 
+                <td><input type="text"  placeholder="Ime" name="name" ></td>
+                <td></td>
+                <td><input type="text"  placeholder="Prezime" name="lastname" ></td>
+              </tr>
+              
+              <tr>
+                <td><label>Broj mobitela</label></td>
+                <td></td>
+                <td><label>E-mail</label></td>
+              </tr>
+              <tr> 
+                <td><input type="text"  placeholder="Broj mobitela" name="mobitel" ></td>
+                <td></td>
+                <td><input type="email"  placeholder="E-mail adresa" name="email" ></td>
+              </tr>
+  
+              <tr>
+                <td><label>Datum</label></td>
+                <td><label>Vrijeme</label></td>
+                <td><label>Broj osoba</label></td>
+              </tr>
+
+              <tr>
+                <td><input type="text"  placeholder="Datum" name="datum" ></td>
+                <td><input type="text"  placeholder="Vrijeme" name="vrijeme" ></td>
+                <td><input type="text"  placeholder="Broj osoba" name="brojosoba" ></td>
+              </tr>
+
+              <tr>
+                <td colspan=3><button type="submit">Rezerviraj</button></td>
+              </tr>
+              
+            </table>
+            </form>
+
+          </div>
+
+<!-- ------------------FOOTER ------------------------------->
+<!-- VLASTITA IZRADA--->
+          <div class="footer" >
+               (C) Abecevitaz. Sva prava pridržana
+          </div>
+    </body>
+</html>
